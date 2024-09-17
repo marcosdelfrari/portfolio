@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="home mx-auto max-w-[90rem] sm:flex custom-height-body">
       <motion.div
-        className="border-r border-black hidden sm:w-[50rem] lg:w-[40rem] 2xl:w-[20rem] sm:items-end sm:justify-end sm:flex sm:flex-col"
+        className="border-r dark:border-[#a097cd] border-black hidden sm:w-[50rem] lg:w-[40rem] 2xl:w-[20rem] sm:items-end sm:justify-end sm:flex sm:flex-col"
         initial={{ x: -100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
       >

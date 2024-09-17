@@ -6,7 +6,10 @@ import { motion } from "framer-motion";
 
 function about() {
   return (
-    <div className="flex flex-col justify-center row-auto socials-center w-screen sm:w-auto text-center custom-height">
+    <section
+      id="about"
+      className="flex flex-col justify-center row-auto socials-center w-screen sm:w-auto text-center custom-height"
+    >
       <motion.div
         className="flex mt-[-6rem] justify-center"
         initial={{ opacity: 0, scale: 0 }}
@@ -48,7 +51,7 @@ function about() {
           ))}
         </ul>
       </motion.div>
-    </div>
+    </section>
   );
 }
 

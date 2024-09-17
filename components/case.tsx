@@ -17,10 +17,10 @@ function Case({
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1.33 1"],
+    offset: ["0 1", "1 1"],
   });
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
-  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.1, 1]);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -46,7 +46,7 @@ function Case({
           : {}
       }
     >
-      <section className="mb-10 block sm:flex sm:m-0 ">
+      <section className="mb-10 block sm:flex sm:m-3 sm:hover:scale-105 transition ">
         <div className="sm:w-[50rem] sm:justify-center scroll-hidden sm:flex sm:items-center">
           <Image
             src={preview}
@@ -77,7 +77,7 @@ function Case({
           <div className="flex justify-between gap-2 mt-4">
             <a
               href={linkLive}
-              className="border border-gray-900 w-1/2 font-thin text-center text-[0.75rem] px-4 py-2 b-b hover:underline dark:border-gray-50"
+              className="border border-gray-900 w-1/2 font-thin text-center text-[0.75rem] px-4 py-2 b-b hover:underline hover:scale-105 dark:border-gray-50"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -85,7 +85,7 @@ function Case({
             </a>
             <a
               href={linkCode}
-              className="border bg-gray-900 border-gray-900 text-white w-1/2 font-thin text-center text-[0.75rem] px-4 py-2 b-b hover:underline dark:border-gray-50"
+              className="border bg-gray-900 border-gray-900 text-white w-1/2 font-thin text-center text-[0.75rem] px-4 py-2 b-b hover:scale-105 hover:underline dark:border-gray-50"
               target="_blank"
               rel="noopener noreferrer"
             >

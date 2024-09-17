@@ -1,10 +1,10 @@
 "use client";
-import { MdArrowOutward } from "react-icons/md";
 import React from "react";
 import Showcase from "./showcase";
 import { motion } from "framer-motion";
 import SectionHeading from "./sectionHeading";
 import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa";
 
 function projects() {
   return (
@@ -17,9 +17,15 @@ function projects() {
       <div>
         <Showcase />
       </div>
-      <div className="flex underline font-bold justify-end items-center ">
-        <Link href="/projetos">Veja todos os projetos</Link>
-        <MdArrowOutward />
+      <div className="flex font-bold justify-end">
+        <div className="border-b">
+          <Link
+            href="/projetos"
+            className="flex sm:hover:scale-105 gap-1 items-center"
+          >
+            Veja todos os projetos <FaArrowRight />
+          </Link>
+        </div>
       </div>
     </motion.section>
   );
