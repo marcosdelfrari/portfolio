@@ -77,7 +77,7 @@ function Case({
           <div className="flex justify-between gap-2 mt-4">
             <a
               href={linkLive}
-              className="border border-gray-900 w-1/2 font-thin text-center text-[0.75rem] px-4 py-2 b-b hover:underline hover:scale-105 dark:border-gray-50"
+              className="border border-gray-900 w-1/2 font-light sm:font-thin text-center text-[0.75rem] px-4 py-2 b-b hover:underline hover:scale-105 dark:border-gray-50"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -85,7 +85,7 @@ function Case({
             </a>
             <a
               href={linkCode}
-              className="border bg-gray-900 border-gray-900 text-white w-1/2 font-thin text-center text-[0.75rem] px-4 py-2 b-b hover:scale-105 hover:underline dark:border-gray-50"
+              className="border bg-gray-900 border-gray-900 text-white w-1/2 font-light sm:font-thin text-center text-[0.75rem] px-4 py-2 b-b hover:scale-105 hover:underline dark:border-gray-50"
               target="_blank"
               rel="noopener noreferrer"
             >
