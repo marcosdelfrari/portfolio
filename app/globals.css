@@ -2,26 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.custom-height {
+  height: calc(100vh - 4.5rem);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@media (min-width: 640px) {
+  .custom-height-body {
+    height: calc(100vh - 7.5rem);
+  }
+  .scroll-hidden {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+
+  .scroll-hidden::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .scroll-hidden::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+
+  .scroll-hidden::-webkit-scrollbar-track {
+    background: transparent;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+th,
+td {
+  padding: 0 0.5rem;
 }
