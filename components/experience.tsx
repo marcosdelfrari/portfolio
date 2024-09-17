@@ -6,7 +6,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 type experienceProps = (typeof experiencesData)[number];
 
-function experience({
+function Experience({
   date,
   linkedin,
   title,
@@ -76,4 +76,4 @@ function experience({
   );
 }
 
-export default experience;
+export default Experience;
