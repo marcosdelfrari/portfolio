@@ -16,27 +16,27 @@ export const social: Social[] = [
   {
     name: "GitHub",
     icon: createElement(FaGithub),
-    hash: "#github",
+    hash: "https://github.com/marcosdelfrari",
   },
   {
     name: "LinkedIn",
     icon: createElement(FaLinkedin),
-    hash: "#linkedin",
+    hash: "https://www.linkedin.com/in/marcosdelfrari/",
   },
   {
     name: "Behance",
     icon: createElement(IoLogoBehance),
-    hash: "#Behance",
+    hash: "http://www.behance.net/marcosdelfrari",
   },
   {
     name: "Instagram",
     icon: createElement(RiInstagramFill),
-    hash: "#Instagram",
+    hash: "http://www.instagram.com/marcosdelfrari",
   },
   {
     name: "Whatsapp",
     icon: createElement(IoLogoWhatsapp),
-    hash: "#Instagram",
+    hash: "https://wa.me/5531994369932",
   },
 ];
 
@@ -47,7 +47,7 @@ export const links = [
   },
   {
     name: "Experiência",
-    hash: "#Experience",
+    hash: "/#Experience",
   },
 ] as const;
 
@@ -58,9 +58,9 @@ export const experiencesData = [
     linkedin:
       "https://www.linkedin.com/company/santri-solu-es/?originalSubdomain=br",
     description:
-      "Desenvolveu e manteve a interface do e-commerce usando Vue3, resolvendo bugs em múltiplos dispositivos, colaborando com o backend e implementando componentes reutilizáveis e escaláveis.",
+      "Ajustei o frontend de um projeto MVC em TWIG, colaborei no desenvolvimento do protótipo da nova versão e desenvolvi do zero o frontend do e-commerce em Vue 3 com Bootstrap, seguindo o protótipo do Figma e criando componentes reutilizáveis.",
     date: "2023-2024",
-    tags: ["Angular", "TypeScript"],
+    tags: ["TWIG", "Vue 3", "Bootstrap", "MVC", "FIGMA"],
   },
   {
     title: "Dev Front-End",
@@ -68,9 +68,9 @@ export const experiencesData = [
     linkedin:
       "https://www.linkedin.com/company/somosclaims/posts/?feedView=all",
     description:
-      "Desenvolveu SPAs com Angular e IONIC, criou landing pages em WordPress, aplicou Scrum, gerenciou sprints, realizou code reviews e otimizou aplicações, resolvendo bugs e problemas de desempenho.",
+      "Criei landing pages com Elementor no WordPress, desenvolvi um site institucional em Angular e integrei-o com Strapi. Também participei da construção de um portal para clientes usando Angular e Ionic.",
     date: "2021-2023",
-    tags: ["Angular", "TypeScript"],
+    tags: ["Angular", "Wordpress", "Strapi", "Ionic", "Elementor"],
   },
   {
     title: "Web Designer",
@@ -78,17 +78,9 @@ export const experiencesData = [
     linkedin:
       "https://www.linkedin.com/company/santri-solu-es/?originalSubdomain=br",
     description:
-      "Customizou temas e plugins no WordPress, criou landing pages, gerenciou tráfego e implementou segurança, backup e otimização de desempenho para sites de clientes.",
+      "Gerenciei a comunicação visual e criei landing pages. Desenvolvi um aplicativo de treinamento para funcionários, analisei dados e otimizei o fluxo de captação de leads.",
     date: "2019-2021",
-    tags: ["Angular", "TypeScript"],
-  },
-  {
-    title: "Engenheiro de Software",
-    enterprise: "Code ",
-    linkedin: "https://www.instagram.com/voudecode",
-    description: "lorem ipsum",
-    date: "2019-2024",
-    tags: ["Angular", "TypeScript"],
+    tags: ["Elementor", "Wordpress", "Leads", "Adobe", "JAVASCRIPT"],
   },
 ] as const;
 
@@ -96,7 +88,7 @@ export const projectsData = [
   {
     title: "Santri Ecommerce",
     description: "Landing page construida no wordpress",
-    owner: "CODE",
+    owner: "SANTRI WEB",
     builtWith: ["FIGMA", "Vue3", "JAVASCRIPT", "CSS"],
     linkLive:
       "https://www.figma.com/design/03IPXM3EdIrXELYI4JXQU9/Santri-%5Bnov.23%5D-(Copy)?node-id=0-1&t=Z5Gp1SGHkMoBxpio-1",
@@ -160,19 +152,19 @@ export const projectsData = [
   {
     title: "Ecommerce Santri",
     description: "Ajustes de front em todo o ecommerce",
-    owner: "CODE",
+    owner: "SANTRI WEB",
     builtWith: ["HTML", "TWIG", "CSS", "JAVASCRIPT"],
     linkLive: "https://dentalglobo.net",
-    linkCode: "https://github.com/marcosdelfrari/Santri-Disjuntor",
+    linkCode: "",
     years: "2023",
   },
   {
     title: "Teste Santri",
     description: "Ajustes de front em todo o ecommerce",
-    owner: "CODE",
+    owner: "SANTRI WEB",
     builtWith: ["FIGMA", "Vue3", "JAVASCRIPT", "CSS"],
     linkLive: "https://dentalglobo.net",
-    linkCode: "",
+    linkCode: "https://github.com/marcosdelfrari/Santri-Disjuntor",
     years: "2023",
   },
   {
@@ -255,7 +247,7 @@ export const projectsData = [
     title: "PJUS site",
     description: "Sites institucional criado para fins lucrativos",
     owner: "PJUS",
-    builtWith: ["JAVASCRIPT", "ELEMENTOR", "CSS", "BLOGGER", "PHOTOSHOP"],
+    builtWith: ["JAVASCRIPT", "BETHEME", "CSS", "WORDPRESS", "PHOTOSHOP"],
     linkLive: "https://pjus.com.br",
     linkCode: "",
     years: "2019",
@@ -273,7 +265,7 @@ export const projectsData = [
     title: "Design Fox Brasil",
     description: "Sites criados quando criança",
     owner: "CRIANÇA",
-    builtWith: ["JAVASCRIPT", "HTML", "CSS", "BLOGGER", "PHOTOSHOP"],
+    builtWith: [, "HTML", "CSS", "BLOGGER", "PHOTOSHOP"],
     linkLive: "https://designfoxbrasil.blogspot.com",
     linkCode: "",
     years: "2013",
@@ -300,7 +292,7 @@ export const projectsData = [
     title: "House Hentai",
     description: "Sites criados quando criança",
     owner: "CRIANÇA",
-    builtWith: ["HTML", "CSS", "BLOGGER", "PHOTOSHOP"],
+    builtWith: ["HTML", "CSS", "PHOTOSHOP"],
     linkLive: "/hentai.png",
     linkCode: "",
     years: "2013",
@@ -309,7 +301,7 @@ export const projectsData = [
     title: "The Walking Dead",
     description: "Sites criados quando criança",
     owner: "CRIANÇA",
-    builtWith: ["HTML", "CSS", "BLOGGER", "PHOTOSHOP"],
+    builtWith: ["HTML", "CSS", "PHOTOSHOP"],
     linkLive: "/walking.png",
     linkCode: "",
     years: "2013",
@@ -327,7 +319,7 @@ export const projectsData = [
     title: "One Piece Advance",
     description: "Sites criados quando criança",
     owner: "CRIANÇA",
-    builtWith: ["HTML", "CSS", "BLOGGER", "PHOTOSHOP"],
+    builtWith: ["HTML", "CSS", "PHOTOSHOP"],
     linkLive: "/onepiece.png",
     linkCode: "",
     years: "2012",
@@ -360,15 +352,6 @@ export const projectsData = [
     years: "2012",
   },
   {
-    title: "Inazuma Fox",
-    description: "Sites criados quando criança",
-    owner: "CRIANÇA",
-    builtWith: ["HTML", "CSS", "BLOGGER", "PHOTOSHOP"],
-    linkLive: "https://super--onze--brasil.blogspot.com",
-    linkCode: "",
-    years: "2012",
-  },
-  {
     title: "Minima Blogger",
     description: "Sites criados quando criança",
     owner: "CRIANÇA",
@@ -387,19 +370,10 @@ export const projectsData = [
     years: "2011",
   },
   {
-    title: "Extreme Mania",
-    description: "Sites criados quando criança",
-    owner: "CRIANÇA",
-    builtWith: ["HTML", "CSS", "BLOGGER", "PHOTOSHOP"],
-    linkLive: "/extrememania.png",
-    linkCode: "",
-    years: "2011",
-  },
-  {
     title: "Inazuma Extreme",
     description: "Primeiro site criado",
     owner: "CRIANÇA",
-    builtWith: ["HTML", "CSS", "JAVASCRIPT", "BLOGGER", "PHOTOSHOP"],
+    builtWith: ["HTML", "CSS", "PHOTOSHOP"],
     linkLive: "/primeiroprojeto.png",
     linkCode: "",
     years: "2011",

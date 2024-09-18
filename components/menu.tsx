@@ -7,7 +7,7 @@ function menu() {
   return (
     <div className="sm:justify-end sm:items-end sm:h-[16rem] ">
       <Link
-        href="#about"
+        href="/#Sobre"
         className="sm:hidden px-5 text-end text-[0.7rem] sm:tracking-wider tracking-wide sm:text-base font-light sm:font-thin underline"
       >
         Contato
