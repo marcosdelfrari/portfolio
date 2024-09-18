@@ -43,7 +43,10 @@ function about() {
         <ul className="flex justify-center py-2 gap-3 sm:gap-1 text-2xl">
           {social.map((social, index) => (
             <li key={index} className="hover:scale-125 transition">
-              <a href={social.hash}> {social.icon} </a>
+              <a href={social.hash} target="_blank">
+                {" "}
+                {social.icon}{" "}
+              </a>
             </li>
           ))}
         </ul>
