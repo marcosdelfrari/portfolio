@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 import { social } from "@/lib/data";
 import { motion } from "framer-motion";
@@ -16,13 +15,15 @@ function about() {
           duration: 0.5,
         }}
       >
-        <Image
-          src="/avatar2.png"
-          alt="Marcos Lucas"
+        <video
+          src="/avatar.mov"
           width="180"
           height="180"
-          quality="100"
-          priority={true}
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{ width: "180px", height: "180px" }}
         />
       </motion.div>
       <motion.div
