@@ -60,6 +60,7 @@ function Experience({
             {title} - {enterprise} <MdArrowOutward />
           </a>
           <p className="text-sm font-light">{description}</p>
+
           <div className="flex gap-2 mt-2">
             {tags.map((tag) => (
               <span
