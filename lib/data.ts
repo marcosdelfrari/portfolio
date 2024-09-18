@@ -178,6 +178,16 @@ export const projectsData = [
     years: "2022",
   },
   {
+    title: "Client Portal",
+    description: "Site feito em angular e algumas paginas strapi",
+    owner: "Somos",
+    builtWith: ["TYPESCRIPT", "IONIC", "ANGULAR", "SaSS"],
+    linkLive: "https://test-cp.somos.us/auth/login",
+    linkCode: "",
+    years: "2022",
+  },
+
+  {
     title: "Somos Site",
     description: "Site feito em angular e algumas paginas strapi",
     owner: "Somos",
@@ -385,7 +395,7 @@ export const showCase = [
     title: "Landing Page Dolla",
     description:
       "Desenvolvi uma landing page para a startup Dolla, com o objetivo de informar os usuários. Usei Figma para prototipação e Angular para codificação, reforçando a reutilização de componentes.",
-    builtWith: ["Angular", "Sass", "Figma"],
+    builtWith: ["Angular", "SaSS", "Figma"],
     preview: showcaseone,
     linkLive: "https://dolla-solutions.netlify.app",
     linkCode: "https://github.com/marcosdelfrari/Dolla/tree/main",
