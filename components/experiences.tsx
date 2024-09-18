@@ -1,7 +1,7 @@
 import React from "react";
 import { experiencesData } from "@/lib/data";
 import SectionHeading from "./sectionHeading";
-import Experience from "./experience";
+import Experience from "./Experience";
 
 function experiences() {
   return (

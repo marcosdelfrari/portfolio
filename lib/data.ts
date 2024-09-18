@@ -254,7 +254,7 @@ export const projectsData = [
   {
     title: "PJUS site",
     description: "Sites institucional criado para fins lucrativos",
-    owner: "CRIANÇA",
+    owner: "PJUS",
     builtWith: ["JAVASCRIPT", "ELEMENTOR", "CSS", "BLOGGER", "PHOTOSHOP"],
     linkLive: "https://pjus.com.br",
     linkCode: "",

@@ -4,7 +4,7 @@ import { IoSunnyOutline } from "react-icons/io5";
 import { IoMoonOutline } from "react-icons/io5";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { motion } from "framer-motion";
-import ThemeSwitch from "./themeSwitch";
+import ThemeSwitch from "./ThemeSwitch";
 
 export default function header() {
   return (
