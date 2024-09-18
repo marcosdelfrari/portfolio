@@ -70,7 +70,7 @@ export const experiencesData = [
     description:
       "Criei landing pages com Elementor no WordPress, desenvolvi um site institucional em Angular e integrei-o com Strapi. Também participei da construção de um portal para clientes usando Angular e Ionic.",
     date: "2021-2023",
-    tags: ["Angular", "Wordpress", "Strapi", "Ionic", "Elementor"],
+    tags: ["Angular", "Wordpress", "Strapi", "Ionic"],
   },
   {
     title: "Web Designer",
@@ -80,7 +80,7 @@ export const experiencesData = [
     description:
       "Gerenciei a comunicação visual e criei landing pages. Desenvolvi um aplicativo de treinamento para funcionários, analisei dados e otimizei o fluxo de captação de leads.",
     date: "2019-2021",
-    tags: ["Elementor", "Wordpress", "Leads", "Adobe", "JAVASCRIPT"],
+    tags: ["Elementor", "Wordpress", "Leads", "Adobe"],
   },
 ] as const;
 
