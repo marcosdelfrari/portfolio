@@ -4,7 +4,7 @@ import { IoSunnyOutline } from "react-icons/io5";
 import { IoMoonOutline } from "react-icons/io5";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { motion } from "framer-motion";
-import ThemeSwitch from "./themeSwitch";
+import ThemeSwitch from "./ThemeSwitch";
 
 export default function header() {
   return (
@@ -21,7 +21,7 @@ export default function header() {
         <div className="order-3 sm:order-1 flex items-center sm:w-[5rem]">
           <ThemeSwitch />
         </div>
-        <div className="order-4 sm:hover:scale-105 justify-end hidden sm:flex  sm:w-[5rem]">
+        <div className="order-4 sm:hover:scale-105 transition justify-end hidden sm:flex  sm:w-[5rem]">
           <a href="/marcos-cv.pdf" target="_blank">
             <MdOutlineFileDownload />
           </a>

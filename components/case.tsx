@@ -61,7 +61,7 @@ function Case({
           <span className="text-base font-semibold">{title}</span>
           <span className="font-light text-sm mb-2">{description}</span>
           <div className="flex items-center">
-            <span className="text-sm font-semibold">Tecnologias:</span>
+            <span className="text-sm font-semibold">Build:</span>
             <ul className="flex mx-1 gap-2">
               {builtWith.map((tech, techs) => (
                 <li

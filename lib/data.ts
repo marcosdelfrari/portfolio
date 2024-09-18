@@ -1,14 +1,14 @@
-// data.ts
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoLogoBehance } from "react-icons/io5";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { ReactNode, createElement } from "react";
-import showcaseone from "/public/showcaseone.png";
+import showcaseone from "/public/maciphone.png";
+import showcasetwo from "/public/iphones.png";
 
 export interface Social {
   name: string;
-  icon: ReactNode; // ReactNode para aceitar componentes JSX
+  icon: ReactNode;
   hash: string;
 }
 
@@ -94,73 +94,33 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Somos Claims Management",
-    description: "",
-    owner: "Somos",
-    builtWith: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    linkLive: "ss",
-    linkCode: "ss",
-    years: "2023",
-  },
-  {
-    title: "Somos Claims Management",
-    description: "",
-    owner: "Somos",
-    builtWith: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    title: "Inazuma Extreme",
+    description: "Primeiro site criado",
+    owner: "CODE",
+    builtWith: ["HTML", "CSS", "JAVASCRIPT", "BLOGGER", "PHOTOSHOP"],
     linkLive: "ss",
     linkCode: "",
-    years: "2023",
-  },
-  {
-    title: "Somos Claims Management",
-    description: "",
-    owner: "Somos",
-    builtWith: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    linkLive: "",
-    linkCode: "ss",
     years: "2023",
   },
 ] as const;
 
 export const showCase = [
   {
-    title: "Projeto 1",
+    title: "Landing Page Dolla",
     description:
-      "Iniciei o desenvolvimento do site Somos por conta própria seguindo os padrões do figma, do início até a conclusão, realizando ajustes e melhorias contínuas. Posteriormente, contei com a colaboração de outros.",
-    builtWith: ["Angular", "TypeScript"],
+      "Desenvolvi uma landing page para a startup Dolla, com o objetivo de informar os usuários. Usei Figma para prototipação e Angular para codificação, reforçando a reutilização de componentes.",
+    builtWith: ["Angular", "Sass", "Figma"],
     preview: showcaseone,
-    linkLive: "https://projeto1.com",
-    linkCode: "https://github.com/projeto1",
+    linkLive: "https://dolla-solutions.netlify.app",
+    linkCode: "https://github.com/marcosdelfrari/Dolla/tree/main",
   },
   {
-    title: "Projeto 1",
+    title: "Site Institucional Dolla",
     description:
-      "Iniciei o desenvolvimento do site Somos por conta própria seguindo os padrões do figma, do início até a conclusão, realizando ajustes e melhorias contínuas. Posteriormente, contei com a colaboração de outros.",
-    builtWith: ["Angular", "TypeScript"],
-    preview: showcaseone,
-    linkLive: "https://projeto1.com",
-    linkCode: "https://github.com/projeto1",
+      "Para expor projetos e cases de sucesso, criei um site institucional, utilizando Figma para o UI kit e Angular para codificação com componentes reutilizáveis e rotas.",
+    builtWith: ["Angular", "Figma", "TypeScript"],
+    preview: showcasetwo,
+    linkLive: "https://dolla-solutions-v1.netlify.app",
+    linkCode: "https://github.com/marcosdelfrari/Dolla/tree/dev",
   },
-] as const;
-
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;

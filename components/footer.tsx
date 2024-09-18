@@ -13,7 +13,7 @@ function footer() {
       <div className="flex justify-center sm:hidden my-[2rem]">
         <Menu />
       </div>
-      <div className="flex flex-col items-center justify-center border-black dark:border-[#a097cd] border-t h-[5rem] px-[5rem] font-extralight text-center  text-[0.7rem]">
+      <div className="flex flex-col items-center justify-center border-black dark:border-[#a097cd] border-t h-[5rem] font-extralight text-center  text-[0.7rem]">
         <span>Projetado no Figma e codificado no VS Code. </span>
         <span>Construído com Next.js e Tailwind CSS.</span>
         <span>Implantado com Vercel.</span>

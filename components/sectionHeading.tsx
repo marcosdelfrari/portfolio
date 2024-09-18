@@ -6,7 +6,7 @@ type SectionHeadingProps = {
 
 function sectionHeading({ children }: SectionHeadingProps) {
   return (
-    <div className="font-extralight tracking-wider mt-[3rem] 2xl:mt-[0rem] text-xl mb-4 border-b border-gray-500">
+    <div className="font-extralight tracking-wider mt-[3rem] 2xl:mt-[0rem] text-xl mb-4 border-b dark:border-[#a097cd] border-gray-500">
       {children}
     </div>
   );
