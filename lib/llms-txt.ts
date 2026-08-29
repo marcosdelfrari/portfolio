@@ -1,6 +1,7 @@
 import { experiencesData, links } from "@/lib/data";
 import { homeFaqs } from "@/lib/faq";
 import { getAllProjects } from "@/lib/projects";
+import { getAuthMdUrl } from "@/lib/agent-auth";
 import { absoluteUrl, getSiteUrl, SITE_DESCRIPTION, SITE_NAME } from "@/lib/seo";
 
 export function buildLlmsTxt(): string {
@@ -68,6 +69,16 @@ ${faqLines}
 
 ## Discovery
 
+- Markdown for Agents: send \`Accept: text/markdown\` to HTML pages (/, /projetos, /projetos/[slug])
+- auth.md (agent registration): ${getAuthMdUrl()}
+- MCP server card: ${absoluteUrl("/.well-known/mcp/server-card.json")}
+- MCP endpoint: ${absoluteUrl("/mcp")}
+- Agent skills index: ${absoluteUrl("/.well-known/agent-skills/index.json")}
+- WebMCP tools: ${absoluteUrl("/webmcp.js")}
+- AI catalog (ARD): ${absoluteUrl("/.well-known/ai-catalog.json")}
+- API catalog (RFC 9727): ${absoluteUrl("/.well-known/api-catalog")}
+- OpenAPI: ${absoluteUrl("/openapi.json")}
+- Health: ${absoluteUrl("/api/health")}
 - Sitemap: ${absoluteUrl("/sitemap.xml")}
 - Robots: ${absoluteUrl("/robots.txt")}
 `;

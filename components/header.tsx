@@ -2,7 +2,6 @@
 import React from "react";
 import { IoSunnyOutline } from "react-icons/io5";
 import { IoMoonOutline } from "react-icons/io5";
-import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import ThemeSwitch from "./themeSwitch";
 
@@ -20,15 +19,6 @@ export default function header() {
         </div>
         <div className="order-3 sm:order-1 flex items-center sm:w-[5rem]">
           <ThemeSwitch />
-        </div>
-        <div className="order-4 sm:hover:scale-105 transition justify-end hidden sm:flex  sm:w-[5rem]">
-          <a
-            href="https://www.linkedin.com/in/marcosdelfrari/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin />
-          </a>
         </div>
       </motion.div>
     </header>

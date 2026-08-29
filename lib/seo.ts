@@ -23,7 +23,7 @@ export function getSiteUrl(): string {
     return `https://${process.env.VERCEL_URL}`;
   }
 
-  return "https://marcoslucas.netlify.app";
+  return "https://marcosdelfrari.com";
 }
 
 export function normalizeSiteUrl(url: string): string {

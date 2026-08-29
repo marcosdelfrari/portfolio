@@ -1,5 +1,7 @@
 import Navbar from "@/components/header";
 import Footer from "@/components/footer";
+import GoogleAnalytics from "@/components/google-analytics";
+import Script from "next/script";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { buildDefaultMetadata } from "@/lib/seo";
@@ -18,6 +20,8 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-white text-gray-950 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
+        <Script src="/webmcp.js" strategy="beforeInteractive" />
+        <GoogleAnalytics />
         <div>
           <Navbar />
         </div>
