@@ -22,11 +22,12 @@ function menu() {
         </Link>
       ))}
       <a
-        href="/marcos-cv.pdf"
+        href="https://www.linkedin.com/in/marcosdelfrari/"
         target="_blank"
+        rel="noopener noreferrer"
         className="sm:block sm:hover:scale-105 px-5 text-end text-[0.7rem] sm:tracking-wider tracking-wide sm:text-base  font-light sm:font-thin underline"
       >
-        Resumo
+        LinkedIn
       </a>
     </div>
   );

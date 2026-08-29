@@ -1,18 +1,15 @@
-"use client";
-import React from "react";
-import AllProjects from "@/components/allProjects";
-import { motion } from "framer-motion";
+import JsonLd from "@/components/json-ld";
+import ProjectsPage from "@/components/projects-page";
+import { buildProjectsJsonLd, buildProjectsMetadata } from "@/lib/seo";
 
-function page() {
+export const metadata = buildProjectsMetadata();
+
+export default function Page() {
   return (
-    <motion.div
-      initial={{ y: 100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5, delay: 0.2 }}
-    >
-      <AllProjects />
-    </motion.div>
+    <>
+      <h1 className="sr-only">Projetos de Marcos Lucas</h1>
+      <JsonLd data={buildProjectsJsonLd()} />
+      <ProjectsPage />
+    </>
   );
 }
-
-export default page;

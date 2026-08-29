@@ -3,8 +3,8 @@ import { IoLogoBehance } from "react-icons/io5";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { ReactNode, createElement } from "react";
-import showcaseone from "/public/maciphone.png";
-import showcasetwo from "/public/iphones.png";
+import showcaseone from "../public/maciphone.png";
+import showcasetwo from "../public/iphones.png";
 
 export interface Social {
   name: string;
@@ -53,6 +53,24 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Desenvolvedor Front-End (Next)",
+    enterprise: "Conciliadora",
+    linkedin: "https://www.linkedin.com/company/conciliadora",
+    description:
+      "Desenvolvo interfaces e páginas do ecossistema Conciliadora em Next.js, com foco em performance, componentes reutilizáveis e experiência consistente para o site institucional e produtos digitais da fintech.",
+    date: "2025 - o momento",
+    tags: ["Next.js", "TypeScript", "Tailwind"],
+  },
+  {
+    title: "Desenvolvedor Front-End (Next)",
+    enterprise: "A3 Media",
+    linkedin: "https://www.linkedin.com/company/a3-media-ltda",
+    description:
+      "Atuei no desenvolvimento front-end de interfaces web com Next.js, colaborando na entrega de páginas e componentes para campanhas e produtos digitais da agência.",
+    date: "2024 - mai/2025",
+    tags: ["Next.js", "TypeScript", "React"],
+  },
+  {
     title: "Dev Front-End",
     enterprise: "Santri Web ",
     linkedin:
@@ -85,6 +103,62 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Nirvana Fit",
+    description:
+      "App para profissionais de nutrição e fitness acompanharem alunos",
+    owner: "CODE",
+    builtWith: ["NEXT.JS", "TYPESCRIPT", "TAILWIND"],
+    linkLive: "https://nirvana-fit.vercel.app/",
+    linkCode: "",
+    years: "2026",
+  },
+  {
+    title: "Mulheres de Luxo",
+    description:
+      "Plataforma de catálogo com perfis verificados em todo o Brasil",
+    owner: "CODE",
+    builtWith: ["NEXT.JS", "TYPESCRIPT", "TAILWIND"],
+    linkLive: "https://mulheresdeluxo.com.br/",
+    linkCode: "",
+    years: "2026",
+  },
+  {
+    title: "Malua Tarot",
+    description: "Oráculo de cartas online com leituras por tema",
+    owner: "CODE",
+    builtWith: ["NEXT.JS", "TYPESCRIPT", "TAILWIND"],
+    linkLive: "https://maluatarot.vercel.app/",
+    linkCode: "",
+    years: "2026",
+  },
+  {
+    title: "Unidade de Saúde Animal",
+    description: "Site institucional de clínica veterinária com internação 24h",
+    owner: "USA",
+    builtWith: ["NEXT.JS", "TYPESCRIPT", "TAILWIND"],
+    linkLive: "https://www.unidadedesaudeanimal.com.br/",
+    linkCode: "",
+    years: "2026",
+  },
+  {
+    title: "Conciliadora",
+    description: "Site institucional de plataforma de conciliação financeira",
+    owner: "CONCILIADORA",
+    builtWith: ["NEXT.JS", "TYPESCRIPT", "TAILWIND"],
+    linkLive: "https://conciliadora.com.br/",
+    linkCode: "",
+    years: "2025",
+  },
+  {
+    title: "Drink Simples",
+    description: "Landing page para marca de bebidas",
+    owner: "CODE",
+    builtWith: ["NEXT.JS", "TYPESCRIPT", "TAILWIND"],
+    linkLive: "https://drink-simples.vercel.app/",
+    linkCode: "",
+    years: "2025",
+  },
   {
     title: "Santri Ecommerce",
     description: "Landing page construida no wordpress",

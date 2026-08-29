@@ -1,9 +1,11 @@
 import React from "react";
-import { projectsData } from "@/lib/data";
+import Link from "next/link";
+import { getAllProjects } from "@/lib/projects";
 import { MdArrowOutward } from "react-icons/md";
-import SectionHeading from "./sectionHeading";
 
 function listProjects() {
+  const projects = getAllProjects();
+
   return (
     <section>
       <table className="table-auto my-5 w-full">
@@ -17,10 +19,17 @@ function listProjects() {
           </tr>
         </thead>
         <tbody>
-          {projectsData.map((project, index) => (
-            <tr key={index} className="border-b border-gray-500">
+          {projects.map((project) => (
+            <tr key={project.slug} className="border-b border-gray-500">
               <td className="h-10 font-extralight text-sm">{project.years}</td>
-              <td className="font-bold text-sm">{project.title}</td>
+              <td className="font-bold text-sm">
+                <Link
+                  href={`/projetos/${project.slug}`}
+                  className="hover:underline"
+                >
+                  {project.title}
+                </Link>
+              </td>
               <td className="hidden sm:table-cell text-sm font-extralight">
                 {project.owner}
               </td>

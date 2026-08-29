@@ -2,13 +2,11 @@ import Navbar from "@/components/header";
 import Footer from "@/components/footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import { buildDefaultMetadata } from "@/lib/seo";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Marcos Lucas | Engenheiro de Software",
-  description: "Portifólio",
-};
+export const metadata = buildDefaultMetadata();
 
 export default function RootLayout({
   children,
@@ -16,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="pt-BR" className="scroll-smooth">
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
