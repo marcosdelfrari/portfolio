@@ -53,7 +53,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Desenvolvedor Front-End (Next)",
+    title: "Dev Front-End",
     enterprise: "Conciliadora",
     linkedin: "https://www.linkedin.com/company/conciliadora",
     description:
@@ -62,7 +62,7 @@ export const experiencesData = [
     tags: ["Next.js", "TypeScript", "Tailwind"],
   },
   {
-    title: "Desenvolvedor Front-End (Next)",
+    title: "Dev Front-End",
     enterprise: "A3 Media",
     linkedin: "https://www.linkedin.com/company/a3-media-ltda",
     description:
