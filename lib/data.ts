@@ -58,7 +58,7 @@ export const experiencesData = [
     linkedin: "https://www.linkedin.com/company/conciliadora",
     description:
       "Desenvolvo interfaces e páginas do ecossistema Conciliadora em Next.js, com foco em performance, componentes reutilizáveis e experiência consistente para o site institucional e produtos digitais da fintech.",
-    date: "2025 - o momento",
+    date: "2025 - Atualmente",
     tags: ["Next.js", "TypeScript", "Tailwind"],
   },
   {
@@ -67,7 +67,7 @@ export const experiencesData = [
     linkedin: "https://www.linkedin.com/company/a3-media-ltda",
     description:
       "Atuei no desenvolvimento front-end de interfaces web com Next.js, colaborando na entrega de páginas e componentes para campanhas e produtos digitais da agência.",
-    date: "2024 - mai/2025",
+    date: "2024 - 2025",
     tags: ["Next.js", "TypeScript", "React"],
   },
   {
