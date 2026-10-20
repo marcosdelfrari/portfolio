@@ -116,15 +116,9 @@ export default function EcosystemPage() {
                 </p>
 
                 {item.domain ? (
-                  <div className="mt-6 hidden items-center justify-between border-t border-white/[0.08] pt-4 text-xs text-zinc-500 transition-colors duration-300 group-hover:border-white/15 group-hover:text-zinc-300 lg:flex">
-                    <span className="truncate font-mono text-[0.72rem]">
-                      {item.domain}
-                    </span>
-                    <span className="inline-flex items-center gap-1 text-[0.7rem] uppercase tracking-[0.16em] text-zinc-500 transition-colors duration-300 group-hover:text-white">
-                      Acessar
-                      <MdArrowOutward className="text-xs transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                    </span>
-                  </div>
+                  <p className="mt-6 hidden truncate border-t border-white/[0.08] pt-4 font-mono text-[0.72rem] text-zinc-500 transition-colors duration-300 group-hover:border-white/15 group-hover:text-zinc-300 lg:block">
+                    {item.domain}
+                  </p>
                 ) : null}
               </div>
             </motion.div>
