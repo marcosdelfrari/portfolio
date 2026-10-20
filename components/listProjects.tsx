@@ -9,7 +9,7 @@ function listProjects() {
   return (
     <section>
       <table className="table-auto my-5 w-full">
-        <thead className="font-bold border-b border-gray-500 text-base text-left">
+        <thead className="font-bold border-b border-white/10 text-base text-left text-zinc-100">
           <tr>
             <th>Ano</th>
             <th>Título</th>
@@ -20,7 +20,7 @@ function listProjects() {
         </thead>
         <tbody>
           {projects.map((project) => (
-            <tr key={project.slug} className="border-b border-gray-500">
+            <tr key={project.slug} className="border-b border-white/10">
               <td className="h-10 font-extralight text-sm">{project.years}</td>
               <td className="font-bold text-sm">
                 <Link
@@ -39,7 +39,7 @@ function listProjects() {
                     {project.builtWith.map((tech, idx) => (
                       <li
                         key={idx}
-                        className="inline-block bg-gray-900 text-white dark:bg-[#f9fafb3b] px-2 py-1 text-[0.75rem] font-extralight rounded-md m-1"
+                        className="inline-block bg-white/10 text-zinc-200 px-2 py-1 text-[0.75rem] font-normal rounded-md m-1"
                       >
                         {tech}
                       </li>

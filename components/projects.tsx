@@ -17,7 +17,7 @@ function projects() {
       <div>
         <Showcase />
       </div>
-      <div className="flex font-bold justify-end">
+      <div className="flex font-semibold justify-end text-sm text-zinc-100">
         <div className="border-b">
           <Link
             href="/projetos"

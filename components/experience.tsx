@@ -48,24 +48,24 @@ function Experience({
     >
       <section className="py-5 sm:flex">
         <div className="sm:w-[15rem] sm:text-end sm:pr-3">
-          <div className="text-sm font-medium ">{date}</div>
+          <div className="text-xs font-medium">{date}</div>
         </div>
-        <div className="sm:w-full sm:border-l border-gray-900 dark:border-gray-50 sm:px-5 flex-grow">
+        <div className="sm:w-full sm:border-l border-white/10 sm:px-5 flex-grow">
           <a
             href={linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-base font-bold hover:underline"
+            className="flex items-center text-sm font-semibold text-zinc-100 hover:underline"
           >
             {title} - {enterprise} <MdArrowOutward />
           </a>
-          <p className="text-sm font-light">{description}</p>
+          <p className="text-xs font-normal">{description}</p>
 
           <div className="flex gap-2 mt-2">
             {tags.map((tag) => (
               <span
                 key={tag}
-                className="inline-block bg-gray-900 text-white dark:bg-[#f9fafb3b] px-2 py-1 rounded-md text-[0.75rem] font-normal "
+                className="inline-block bg-white/10 text-zinc-200 px-2 py-1 rounded-md text-[0.65rem] font-normal"
               >
                 {tag}
               </span>

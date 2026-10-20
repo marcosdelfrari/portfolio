@@ -13,10 +13,16 @@ function footer() {
       <div className="flex justify-center sm:hidden my-[2rem]">
         <Menu />
       </div>
-      <div className="flex flex-col items-center justify-center border-black dark:border-[#a097cd] border-t h-[5rem] font-extralight text-center  text-[0.7rem]">
-        <span>Projetado no Figma e codificado no VS Code. </span>
-        <span>Construído com Next.js e Tailwind CSS.</span>
-        <span>Implantado com Vercel.</span>
+      <div className="flex items-center justify-center border-white/10 border-t h-[3.5rem] font-normal text-center text-xs text-zinc-500">
+        <span>
+          Desenvolvido por{" "}
+          <a
+            href="https://marcosdelfrari.com"
+            className="underline hover:opacity-80"
+          >
+            marcosdelfrari.com
+          </a>
+        </span>
       </div>
     </motion.footer>
   );

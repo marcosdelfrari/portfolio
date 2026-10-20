@@ -16,9 +16,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-BR" className="scroll-smooth">
+    <html lang="pt-BR" className="scroll-smooth dark" suppressHydrationWarning>
+      <head>
+        <meta name="color-scheme" content="dark" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `document.documentElement.classList.add('dark');try{localStorage.removeItem('theme')}catch(e){}`,
+          }}
+        />
+      </head>
       <body
-        className={`${inter.className} bg-white text-gray-950 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
+        className={`${inter.className} min-h-screen bg-black text-zinc-400 antialiased selection:bg-white/20 selection:text-zinc-100`}
       >
         <Script src="/webmcp.js" strategy="beforeInteractive" />
         <GoogleAnalytics />

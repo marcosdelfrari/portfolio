@@ -47,7 +47,7 @@ function Case({
       }
     >
       <section className="mb-10 block sm:flex sm:m-3 sm:hover:scale-105 transition ">
-        <div className="sm:w-[50rem] sm:justify-center scroll-hidden sm:flex sm:items-center">
+        <div className="shrink-0 sm:flex sm:items-center sm:justify-center">
           <Image
             src={preview}
             alt={title}
@@ -58,15 +58,15 @@ function Case({
           />
         </div>
         <div className="flex flex-col mt-4 sm:w-full sm:m-0 sm:py-10 sm:pl-10">
-          <span className="text-base font-semibold">{title}</span>
-          <span className="font-light text-sm mb-2">{description}</span>
+          <span className="text-sm font-semibold text-zinc-100">{title}</span>
+          <span className="font-normal text-xs mb-2">{description}</span>
           <div className="flex items-center">
-            <span className="text-sm font-semibold">Build:</span>
+            <span className="text-xs font-semibold">Build:</span>
             <ul className="flex mx-1 gap-2">
               {builtWith.map((tech, techs) => (
                 <li
                   key={techs}
-                  className="bg-gray-900 text-white dark:bg-[#f9fafb3b] px-2 py-1 rounded-md text-[0.75rem] font-light"
+                  className="bg-white/10 text-zinc-200 px-2 py-1 rounded-md text-[0.65rem] font-normal"
                 >
                   {tech}
                 </li>
@@ -77,7 +77,7 @@ function Case({
           <div className="flex justify-between gap-2 mt-4">
             <a
               href={linkLive}
-              className="border border-gray-900 w-1/2 font-light sm:font-thin text-center text-[0.75rem] px-4 py-2 b-b hover:underline hover:scale-105 dark:border-gray-50"
+              className="border border-white/20 text-zinc-200 w-1/2 font-normal text-center text-[0.65rem] px-4 py-2 b-b hover:underline hover:scale-105 hover:border-white/40"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -85,7 +85,7 @@ function Case({
             </a>
             <a
               href={linkCode}
-              className="border bg-gray-900 border-gray-900 text-white w-1/2 font-light sm:font-thin text-center text-[0.75rem] px-4 py-2 b-b hover:scale-105 hover:underline dark:border-gray-50"
+              className="border border-white/20 bg-zinc-100 text-black w-1/2 font-normal text-center text-[0.65rem] px-4 py-2 b-b hover:scale-105 hover:underline hover:bg-white"
               target="_blank"
               rel="noopener noreferrer"
             >

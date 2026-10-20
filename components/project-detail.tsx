@@ -37,7 +37,7 @@ export default function ProjectDetail({ project }: ProjectDetailProps) {
           {[...project.builtWith].filter(Boolean).map(String).map((tech) => (
             <li
               key={tech}
-              className="inline-block bg-gray-900 text-white dark:bg-[#f9fafb3b] px-3 py-1 text-sm font-extralight rounded-md"
+              className="inline-block bg-white/10 text-zinc-200 px-3 py-1 text-sm font-normal rounded-md"
             >
               {tech}
             </li>
