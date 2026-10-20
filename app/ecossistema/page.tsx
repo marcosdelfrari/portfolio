@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <>
       <h1 className="sr-only">
-        Ecossistema de Marcos Lucas — Dharma, Lótus e Fractal
+        Ecossistema de Marcos Lucas — Dharma, Lótus, Fractal e Nirvana
       </h1>
       <JsonLd data={buildEcosystemJsonLd()} />
       <EcosystemPage />

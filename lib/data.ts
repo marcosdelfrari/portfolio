@@ -93,6 +93,16 @@ export const organizationsData: OrganizationItem[] = [
     description:
       "API de trackeamento e atribuição de eventos para mapear origens, interações e conversões de ponta a ponta.",
   },
+  {
+    name: "Nirvana",
+    logo: "/nirvanabranco.webp",
+    meaning:
+      "Nirvana significa a libertação — o estado de paz além do desejo e do sofrimento.",
+    description:
+      "App para nutricionistas e personais disponibilizarem dieta e treino com timer, checklist e acompanhamento de adesão.",
+    url: "https://nirvana.marcosdelfrari.com",
+    domain: "nirvana.marcosdelfrari.com",
+  },
 ];
 
 export const experiencesData = [
