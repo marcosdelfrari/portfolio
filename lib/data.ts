@@ -165,12 +165,42 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Nirvana Fit",
+    title: "Dharma",
     description:
-      "App para profissionais de nutrição e fitness acompanharem alunos",
+      "Plataforma de gestão associativa com triagem, fichas, atendimentos, loja e expedição",
     owner: "CODE",
     builtWith: ["NEXT.JS", "TYPESCRIPT", "TAILWIND"],
-    linkLive: "https://nirvana-fit.vercel.app/",
+    linkLive: "https://dharma.marcosdelfrari.com",
+    linkCode: "",
+    years: "2026",
+  },
+  {
+    title: "Lótus",
+    description:
+      "Operação de tráfego pago com estratégia, criativos e leitura contínua de ROI",
+    owner: "CODE",
+    builtWith: ["NEXT.JS", "TYPESCRIPT", "TAILWIND"],
+    linkLive: "https://lotus.marcosdelfrari.com",
+    linkCode: "",
+    years: "2026",
+  },
+  {
+    title: "Fractal",
+    description:
+      "Board de análise e atribuição que cruza Google Ads, Meta Ads e o tráfego do site",
+    owner: "CODE",
+    builtWith: ["NEXT.JS", "TYPESCRIPT", "TAILWIND"],
+    linkLive: "https://analytics.marcosdelfrari.com",
+    linkCode: "",
+    years: "2026",
+  },
+  {
+    title: "Nirvana",
+    description:
+      "App para nutricionistas e personais disponibilizarem dieta e treino aos alunos",
+    owner: "CODE",
+    builtWith: ["NEXT.JS", "TYPESCRIPT", "TAILWIND"],
+    linkLive: "https://nirvana.marcosdelfrari.com",
     linkCode: "",
     years: "2026",
   },
