@@ -109,26 +109,15 @@ export default function EcosystemPage() {
                 </p>
               </div>
 
-              {/* Bottom description + highlights + domain */}
+              {/* Bottom description + domain */}
               <div className="relative z-10">
                 <p className="text-sm font-normal leading-relaxed text-zinc-400 transition-colors duration-300 group-hover:text-zinc-300 xl:text-[0.94rem] xl:leading-relaxed">
                   {item.description}
                 </p>
 
-                <div className="mt-5 flex flex-wrap gap-1.5">
-                  {item.highlights.map((tag) => (
-                    <span
-                      key={tag}
-                      className="rounded-full border border-white/[0.08] bg-white/[0.02] px-2.5 py-1 text-[0.68rem] font-normal tracking-wide text-zinc-400 transition-colors duration-300 group-hover:border-white/15 group-hover:bg-white/[0.04] group-hover:text-zinc-200"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-
                 {item.domain ? (
                   <div className="mt-6 hidden items-center justify-between border-t border-white/[0.08] pt-4 text-xs text-zinc-500 transition-colors duration-300 group-hover:border-white/15 group-hover:text-zinc-300 lg:flex">
-                    <span className=" truncate font-mono text-[0.72rem]">
+                    <span className="truncate font-mono text-[0.72rem]">
                       {item.domain}
                     </span>
                     <span className="inline-flex items-center gap-1 text-[0.7rem] uppercase tracking-[0.16em] text-zinc-500 transition-colors duration-300 group-hover:text-white">

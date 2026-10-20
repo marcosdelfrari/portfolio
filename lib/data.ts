@@ -61,7 +61,6 @@ export interface OrganizationItem {
   logo: string;
   meaning: string;
   description: string;
-  highlights: string[];
   url?: string;
   domain?: string;
 }
@@ -75,7 +74,6 @@ export const organizationsData: OrganizationItem[] = [
       "A lei universal, o caminho e a ordem que sustenta todas as coisas.",
     description:
       "Plataforma de gestão associativa que concentra triagem, fichas, atendimentos, loja e expedição em um só fluxo, da entrada do associado à operação do dia a dia.",
-    highlights: ["Triagem & Fichas", "Atendimento", "Loja & Expedição"],
     url: "https://dharma.marcosdelfrari.com",
     domain: "dharma.marcosdelfrari.com",
   },
@@ -87,7 +85,6 @@ export const organizationsData: OrganizationItem[] = [
       "A pureza e o despertar que florescem intactos mesmo em águas turvas.",
     description:
       "Operação de tráfego pago com estratégia, criativos orientados à oferta e leitura contínua de ROI, do planejamento da campanha ao ajuste com base em resultado real.",
-    highlights: ["Estratégia de Mídia", "Criativos de Oferta", "Escala & ROI"],
     url: "https://lotus.marcosdelfrari.com",
     domain: "lotus.marcosdelfrari.com",
   },
@@ -99,7 +96,6 @@ export const organizationsData: OrganizationItem[] = [
       "A interconexão infinita onde cada parte contém o todo.",
     description:
       "Board de análise e atribuição que cruza Google Ads, Meta Ads e o tráfego do site, com script de rastreamento, eventos e dashboards para ligar investimento ao resultado.",
-    highlights: ["Google & Meta Ads", "Script Real-time", "Dashboards"],
     url: "https://analytics.marcosdelfrari.com",
     domain: "analytics.marcosdelfrari.com",
   },
@@ -111,7 +107,6 @@ export const organizationsData: OrganizationItem[] = [
       "A libertação, o estado de paz além do desejo e do sofrimento.",
     description:
       "App para nutricionistas e personais disponibilizarem dieta e treino no celular do aluno, com macros, checklist, timer de descanso, alongamento guiado e acompanhamento de adesão.",
-    highlights: ["Dieta & Macros", "Treino & Timer", "Adesão do Aluno"],
     url: "https://nirvana.marcosdelfrari.com",
     domain: "nirvana.marcosdelfrari.com",
   },
