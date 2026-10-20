@@ -205,6 +205,16 @@ export const projectsData = [
     years: "2026",
   },
   {
+    title: "Shop",
+    description:
+      "Loja pessoal de xilogravuras, linogravuras e pinturas originais, com envio internacional",
+    owner: "CODE",
+    builtWith: ["NEXT.JS", "TYPESCRIPT", "TAILWIND"],
+    linkLive: "https://shop.marcosdelfrari.com/",
+    linkCode: "",
+    years: "2026",
+  },
+  {
     title: "Mulheres de Luxo",
     description:
       "Plataforma de catálogo com perfis verificados em todo o Brasil",
