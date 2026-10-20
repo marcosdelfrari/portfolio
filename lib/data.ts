@@ -72,7 +72,7 @@ export const organizationsData: OrganizationItem[] = [
     category: "Gestão Associativa",
     logo: "/dharmabranco.webp",
     meaning:
-      "Dharma significa a lei universal, o caminho e a ordem que sustenta todas as coisas.",
+      "A lei universal, o caminho e a ordem que sustenta todas as coisas.",
     description:
       "Plataforma de gestão associativa que concentra triagem, fichas, atendimentos, loja e expedição em um só fluxo, da entrada do associado à operação do dia a dia.",
     highlights: ["Triagem & Fichas", "Atendimento", "Loja & Expedição"],
@@ -84,7 +84,7 @@ export const organizationsData: OrganizationItem[] = [
     category: "Tráfego & Performance",
     logo: "/lotusbranco.webp",
     meaning:
-      "Lótus significa a pureza e o despertar que florescem intactos mesmo em águas turvas.",
+      "A pureza e o despertar que florescem intactos mesmo em águas turvas.",
     description:
       "Operação de tráfego pago com estratégia, criativos orientados à oferta e leitura contínua de ROI, do planejamento da campanha ao ajuste com base em resultado real.",
     highlights: ["Estratégia de Mídia", "Criativos de Oferta", "Escala & ROI"],
@@ -96,7 +96,7 @@ export const organizationsData: OrganizationItem[] = [
     category: "Analytics & Atribuição",
     logo: "/fractalbranco.webp",
     meaning:
-      "Fractal significa a interconexão infinita onde cada parte contém o todo.",
+      "A interconexão infinita onde cada parte contém o todo.",
     description:
       "Board de análise e atribuição que cruza Google Ads, Meta Ads e o tráfego do site, com script de rastreamento, eventos e dashboards para ligar investimento ao resultado.",
     highlights: ["Google & Meta Ads", "Script Real-time", "Dashboards"],
@@ -108,7 +108,7 @@ export const organizationsData: OrganizationItem[] = [
     category: "Saúde & Performance",
     logo: "/nirvanabranco.webp",
     meaning:
-      "Nirvana significa a libertação, o estado de paz além do desejo e do sofrimento.",
+      "A libertação, o estado de paz além do desejo e do sofrimento.",
     description:
       "App para nutricionistas e personais disponibilizarem dieta e treino no celular do aluno, com macros, checklist, timer de descanso, alongamento guiado e acompanhamento de adesão.",
     highlights: ["Dieta & Macros", "Treino & Timer", "Adesão do Aluno"],
