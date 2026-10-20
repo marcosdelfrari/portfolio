@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { showCase, social } from "@/lib/data";
+import { organizationsData, showCase, social } from "@/lib/data";
 import {
   getAllProjects,
   getProjectPath,
@@ -171,6 +171,17 @@ export function buildProjectsMetadata(): Metadata {
     description:
       "Catálogo completo de projetos de Marcos Lucas: aplicações web com Next.js, Angular, Vue e WordPress — do protótipo ao deploy em produção.",
     path: "/projetos",
+    type: "website",
+    skipOgImage: true,
+  });
+}
+
+export function buildEcosystemMetadata(): Metadata {
+  return buildPageMetadata({
+    title: "Ecossistema",
+    description:
+      "Ecossistema de soluções e organizações criadas por Marcos Lucas: Dharma (gestão associativa), Lótus (gestão de tráfego pago) e Fractal (API de trackeamento).",
+    path: "/ecossistema",
     type: "website",
     skipOgImage: true,
   });
@@ -424,6 +435,32 @@ export function buildProjectsJsonLd(): JsonLd[] {
         slug: project.slug,
         linkLive: project.linkLive,
       }))),
+    }),
+  ];
+}
+
+export function buildEcosystemJsonLd(): JsonLd[] {
+  return [
+    buildBreadcrumbJsonLd([
+      { name: "Início", path: "/" },
+      { name: "Ecossistema", path: "/ecossistema" },
+    ]),
+    buildCollectionPageJsonLd({
+      name: "Ecossistema — Marcos Lucas",
+      description:
+        "Organizações, produtos e soluções autorais: Dharma, Lótus e Fractal.",
+      path: "/ecossistema",
+    }),
+    buildItemListJsonLd({
+      name: "Ecossistema",
+      description:
+        "Soluções e organizações criadas por Marcos Lucas.",
+      path: "/ecossistema",
+      items: organizationsData.map((org) => ({
+        name: org.name,
+        description: org.description,
+        url: org.url ?? absoluteUrl("/ecossistema"),
+      })),
     }),
   ];
 }

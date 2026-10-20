@@ -49,7 +49,51 @@ export const links = [
     name: "Experiência",
     hash: "/#Experience",
   },
+  {
+    name: "Ecossistema",
+    hash: "/ecossistema",
+  },
 ] as const;
+
+export interface OrganizationItem {
+  name: string;
+  logo: string;
+  meaning: string;
+  description: string;
+  url?: string;
+  domain?: string;
+}
+
+export const organizationsData: OrganizationItem[] = [
+  {
+    name: "Dharma",
+    logo: "/dharmabranco.webp",
+    meaning:
+      "Dharma significa a lei universal, o caminho e a ordem que sustenta todas as coisas.",
+    description:
+      "Plataforma de gestão associativa que centraliza triagem, fichas, atendimentos, loja e expedição em uma única operação.",
+    url: "https://dharma.marcosdelfrari.com",
+    domain: "dharma.marcosdelfrari.com",
+  },
+  {
+    name: "Lótus",
+    logo: "/lotusbranco.webp",
+    meaning:
+      "Lótus significa a pureza e o despertar que florescem intactos mesmo em águas turvas.",
+    description:
+      "Operação de tráfego pago com estratégia, criativos orientados à oferta e leitura contínua de retorno sobre investimento.",
+    url: "https://lotus.marcosdelfrari.com",
+    domain: "lotus.marcosdelfrari.com",
+  },
+  {
+    name: "Fractal",
+    logo: "/fractalbranco.webp",
+    meaning:
+      "Fractal significa a interconexão infinita onde cada parte contém o todo.",
+    description:
+      "API de trackeamento e atribuição de eventos para mapear origens, interações e conversões de ponta a ponta.",
+  },
+];
 
 export const experiencesData = [
   {

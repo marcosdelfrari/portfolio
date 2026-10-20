@@ -1,5 +1,4 @@
-import Navbar from "@/components/header";
-import Footer from "@/components/footer";
+import LayoutChrome from "@/components/layout-chrome";
 import GoogleAnalytics from "@/components/google-analytics";
 import Script from "next/script";
 import "./globals.css";
@@ -30,13 +29,7 @@ export default function RootLayout({
       >
         <Script src="/webmcp.js" strategy="beforeInteractive" />
         <GoogleAnalytics />
-        <div>
-          <Navbar />
-        </div>
-
-        {children}
-
-        <Footer />
+        <LayoutChrome>{children}</LayoutChrome>
       </body>
     </html>
   );
