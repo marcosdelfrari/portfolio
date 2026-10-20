@@ -180,7 +180,7 @@ export function buildEcosystemMetadata(): Metadata {
   return buildPageMetadata({
     title: "Ecossistema",
     description:
-      "Ecossistema de soluções e organizações criadas por Marcos Lucas: Dharma (gestão associativa), Lótus (gestão de tráfego pago), Fractal (API de trackeamento) e Nirvana (app para nutricionistas e personais).",
+      "Ecossistema de soluções e organizações criadas por Marcos Lucas: Dharma (gestão associativa), Lótus (gestão de tráfego pago), Fractal (board de análise e atribuição) e Nirvana (app para nutricionistas e personais).",
     path: "/ecossistema",
     type: "website",
     skipOgImage: true,

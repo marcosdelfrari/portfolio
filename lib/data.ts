@@ -57,9 +57,11 @@ export const links = [
 
 export interface OrganizationItem {
   name: string;
+  category: string;
   logo: string;
   meaning: string;
   description: string;
+  highlights: string[];
   url?: string;
   domain?: string;
 }
@@ -67,39 +69,49 @@ export interface OrganizationItem {
 export const organizationsData: OrganizationItem[] = [
   {
     name: "Dharma",
+    category: "Gestão Associativa",
     logo: "/dharmabranco.webp",
     meaning:
       "Dharma significa a lei universal, o caminho e a ordem que sustenta todas as coisas.",
     description:
-      "Plataforma de gestão associativa que centraliza triagem, fichas, atendimentos, loja e expedição em uma única operação.",
+      "Plataforma de gestão associativa que concentra triagem, fichas, atendimentos, loja e expedição em um só fluxo, da entrada do associado à operação do dia a dia.",
+    highlights: ["Triagem & Fichas", "Atendimento", "Loja & Expedição"],
     url: "https://dharma.marcosdelfrari.com",
     domain: "dharma.marcosdelfrari.com",
   },
   {
     name: "Lótus",
+    category: "Tráfego & Performance",
     logo: "/lotusbranco.webp",
     meaning:
       "Lótus significa a pureza e o despertar que florescem intactos mesmo em águas turvas.",
     description:
-      "Operação de tráfego pago com estratégia, criativos orientados à oferta e leitura contínua de retorno sobre investimento.",
+      "Operação de tráfego pago com estratégia, criativos orientados à oferta e leitura contínua de ROI, do planejamento da campanha ao ajuste com base em resultado real.",
+    highlights: ["Estratégia de Mídia", "Criativos de Oferta", "Escala & ROI"],
     url: "https://lotus.marcosdelfrari.com",
     domain: "lotus.marcosdelfrari.com",
   },
   {
     name: "Fractal",
+    category: "Analytics & Atribuição",
     logo: "/fractalbranco.webp",
     meaning:
       "Fractal significa a interconexão infinita onde cada parte contém o todo.",
     description:
-      "API de trackeamento e atribuição de eventos para mapear origens, interações e conversões de ponta a ponta.",
+      "Board de análise e atribuição que cruza Google Ads, Meta Ads e o tráfego do site, com script de rastreamento, eventos e dashboards para ligar investimento ao resultado.",
+    highlights: ["Google & Meta Ads", "Script Real-time", "Dashboards"],
+    url: "https://analytics.marcosdelfrari.com",
+    domain: "analytics.marcosdelfrari.com",
   },
   {
     name: "Nirvana",
+    category: "Saúde & Performance",
     logo: "/nirvanabranco.webp",
     meaning:
-      "Nirvana significa a libertação — o estado de paz além do desejo e do sofrimento.",
+      "Nirvana significa a libertação, o estado de paz além do desejo e do sofrimento.",
     description:
-      "App para nutricionistas e personais disponibilizarem dieta e treino com timer, checklist e acompanhamento de adesão.",
+      "App para nutricionistas e personais disponibilizarem dieta e treino no celular do aluno, com macros, checklist, timer de descanso, alongamento guiado e acompanhamento de adesão.",
+    highlights: ["Dieta & Macros", "Treino & Timer", "Adesão do Aluno"],
     url: "https://nirvana.marcosdelfrari.com",
     domain: "nirvana.marcosdelfrari.com",
   },
