@@ -9,7 +9,7 @@ import { FaArrowRight } from "react-icons/fa";
 function projects() {
   return (
     <motion.section
-      className="px-7"
+      className="p-7"
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
     >
